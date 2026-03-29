@@ -10,11 +10,11 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Session ID gotten from pair web: https://kord.live/session",
+      "description": "Session ID gotten from pair web: kord_ai-4PTr3hr202VDFhS9",
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Owner number of user with country code",
+      "description": "+2290168481362",
       "required": true
     },
     "WORKTYPE": {
@@ -22,7 +22,7 @@
       "required": true
     },
     "PREFIX": {
-      "description": "Use format: [.!?] for multiple and . for default",
+      "description": ".",
       "required": true
     },
     "ALWAYS_ONLINE": {
@@ -46,7 +46,7 @@
       "required": false
     },
     "TIMEZONE": {
-      "description": "Set time zone for menu, cron jobs",
+      "description": "Africa",
       "required": true
     },
     "CAPTION": {
@@ -74,11 +74,11 @@
       "required": false
     },
     "OWNER_NAME": {
-      "description": "Display name of the bot owner",
+      "description": "Chacha",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Display name of the bot",
+      "description": "Lowen_bot",
       "required": true
     },
     "RENDER_API_KEY": {
@@ -98,11 +98,11 @@
       "required": false
     },
     "SUDO": {
-      "description": "Number of allowed users if bot is private, syntax: 2341234567;234654321",
+      "description": "Number of allowed users if bot is private, syntax: +2290168481362",
       "required": false
     },
     "MODS": {
-      "description": "Number of allowed owners if bot is private or not, same syntax as sudo",
+      "description": "Number of allowed owners if bot is private or not, +2290168481362",
       "required": false
     },
     "REJECT_CALL": {
